@@ -6,6 +6,7 @@ env:
   API_HOST: api-manage-7f78dec5-api-manager-tech-jam-apic.apps.simba.hur.hdclab.intranet.ibm.com
   PROVIDER_ORG: student1
   API_FILES: APIfolder/photos.yaml
+  PLATFORM_API_PREFIX: 
   #API_FILES: APIfolder/coffee-store.yaml
   #API_FOLDERS: APIfolder,APIfolderTwo
 
