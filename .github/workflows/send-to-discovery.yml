@@ -4,7 +4,7 @@ on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: eu-central-a.apiconnect.automation.ibm.com
-  PROVIDER_ORG: demo
+  PROVIDER_ORG: demo-3
   API_FILES: APIfolder/photos.yaml
   #PLATFORM_API_PREFIX: api-manager
   #API_FILES: APIfolder/coffee-store.yaml
