@@ -6,7 +6,7 @@ env:
   API_HOST: eu-central-a.apiconnect.automation.ibm.com
   PROVIDER_ORG: demo
   API_FILES: APIfolder/photos.yaml
-  PLATFORM_API_PREFIX: api-manager
+  #PLATFORM_API_PREFIX: api-manager
   #API_FILES: APIfolder/coffee-store.yaml
   #API_FOLDERS: APIfolder,APIfolderTwo
 
