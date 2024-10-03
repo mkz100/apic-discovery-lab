@@ -3,10 +3,12 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apps.simba.hur.hdclab.intranet.ibm.com
+  #API_HOST: apps.simba.hur.hdclab.intranet.ibm.com
+  #PLATFORM_API_PREFIX: api-manage-7f78dec5-api-manager-tech-jam-apic
+  API_HOST: eu-west-a.apiconnect.automation.ibm.com
+  PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: demo-3
   API_FILES: APIfolder/photos.yaml
-  PLATFORM_API_PREFIX: api-manage-7f78dec5-api-manager-tech-jam-apic
   #API_FILES: APIfolder/coffee-store.yaml
   #API_FOLDERS: APIfolder,APIfolderTwo
 
